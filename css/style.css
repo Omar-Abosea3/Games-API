@@ -1,0 +1,87 @@
+body{
+    background-color: #272B30;
+    overflow: hidden;
+}
+header img{
+    height: 30vh;
+}
+nav{
+    background-color: #3A497B;
+    position: sticky !important;
+}
+nav img{
+    width: 40px;
+}
+.LinkFocus a{
+    color: white;
+    cursor: pointer;
+}
+.LinkFocus1{
+    color: #1D71A3 !important;
+}
+.LinkFocus{
+    font-size: 12px !important;
+    transition: 0.5s all;
+}
+.LinkFocus:hover a{
+    color: #1D71A3 !important;
+}
+.gameBox button{
+    background-color: #4A6792 !important;
+    font-size: 14px !important;
+}
+.gameBox{
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+.gameBox:hover{
+    transform: scale(1.05,1.05);
+}
+.gameBox:hover button{
+    background-color: #0D6EFD !important;
+}
+.gameBox img{
+    filter: grayscale(0.7);
+}
+.gameBox:hover img{
+    filter: grayscale(0.2);
+}
+.gameBox span{
+    font-size: 12px;
+}
+.infoBox{
+    height: 170px;
+}
+.gameBox h5{
+    font-size: 14px !important;
+}
+.gameBox p{
+    font-size: 12px !important;
+}
+.loading1{
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    background-color: #272b30;
+    color: orangered;
+}
+#details{
+    background-color:  #272b30;
+}
+.detail span{
+    font-size: 12px;
+}
+.closeIcon{
+    transition: all 0.2s;
+    width: 100%;
+    text-align: end;
+    color: rgba(255, 255, 255, 0.658);
+    cursor: pointer;
+}
+.closeIcon:hover{
+    color: white;
+}
+.detail p{
+    font-size: 12px;
+}
