@@ -85,3 +85,9 @@ nav img{
 .detail p{
     font-size: 12px;
 }
+
+@media screen and (max-width:600px) {
+    .navbar-brand h3{
+        font-size:16px !important;
+    }
+}
